@@ -29,7 +29,7 @@ def hello_world():
     allTodo = Todo.query.all()
     return render_template('index.html', allTodo=allTodo)
 
-@app.route("/update/<int:sno>", methods=['GET', 'POST'])
+@app.route("/update/<int:snro>", methods=['GET', 'POST'])
 def update(sno):
     if request.method=='POST':
         title = request.form['title']
