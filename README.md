@@ -13,8 +13,8 @@ A simple web-based Todo application to manage tasks effectively.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/flask-todo-app.git
-   cd flask-todo-app
+   git clone https://github.com/yourusername/flask-todo.git
+   cd flask-todo
    ```
 
 2. **Install dependencies:**
